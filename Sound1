@@ -10,7 +10,7 @@ local function getGitSoundId(GithubSoundPath: string, AssetName: string): Sound
     return Sound 
 end
 
-local CustomMusic = getGitSoundId("https://github.com/kodbolx/kodbolhub/blob/main/gulp-gulp-gulp?raw=true.mp3", "ElectricalHotelV3")
+local CustomMusic = getGitSoundId("https://github.com/kodbolx/kodbolhub/blob/main/lighttest.mp3", "ElectricalHotelV3")
 CustomMusic.Parent = game.SoundService
 --CustomMusic.Looped = true
 CustomMusic:Play()
