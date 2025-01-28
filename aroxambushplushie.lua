@@ -1,7 +1,7 @@
-            local ambush = game:GetObjects("rbxassetid://95293247243648")[1]
-            ambush.Parent = game.Players.LocalPlayer.Backpack
+local tool = game:GetObjects("rbxassetid://87515073977175")[1]
+            tool.Parent = game.Players.LocalPlayer.Backpack
 
-ambush.Activated:Connect(function()
+tool.Activated:Connect(function()
   local scream = Instance.new("Sound", workspace)
   scream.SoundId = "rbxassetid://18532501108"
   scream:Play()
