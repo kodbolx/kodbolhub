@@ -7,3 +7,6 @@ scream.SoundId = "rbxassetid://3619734707"
 scream.Volume = 2
 scream:Play()
 end)
+
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Plushie maded by kodbol,Discord: [https://discord.gg/76Mq5tQWAV]",true)
+
