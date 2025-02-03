@@ -21,4 +21,4 @@ prompt.Triggered:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/StarJug.lua"))()
 end)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("This maded by kodbol, Discord: [https://discord.gg/76Mq5tQWAV]",true)
+
