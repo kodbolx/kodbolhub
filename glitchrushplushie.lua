@@ -1,5 +1,6 @@
 local rush = game:GetObjects("rbxassetid://87613621854849")[1]
 rush.Parent = game.Players.LocalPlayer.Backpack
+rush.TextureId = "rbxassetid://73859273102919"
 
 rush.Activated:Connect(function()
 local scream = Instance.new("Sound", workspace)
