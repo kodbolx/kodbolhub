@@ -11,8 +11,9 @@ local function getGitSoundId(GithubSoundPath: string, AssetName: string): Sound
 end
 
 local CustomMusic = getGitSoundId("https://github.com/kodbolx/kodbolhub/blob/main/Nightmare%20Mode/Sounds/library1.mp3?raw=true", "library1")
-CustomMusic.Parent = game.SoundService
-CustomMusic.Looped = false
-CustomMusic.Volume = 2
+CustomMusic.Parent = workspace.CurrentRooms["50"].FigureSetup
+CustomMusic.Name = "Ambience"
+CustomMusic.Looped = true
+CustomMusic.Volume = 1
 CustomMusic.PlaybackSpeed = 1
-CustomMusic:Play()
+--CustomMusic:Play()
