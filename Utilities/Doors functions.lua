@@ -1,6 +1,6 @@
 local functions = {}
 
-functions.function MakeSound(id, volume)
+function functions.MakeSound(id,volume)
    local sound = Instance.new("Sound", workspace)
    sound.Volume = volume
    sound.SoundId = id
@@ -9,5 +9,3 @@ end
 
 
 return functions
-
-MakeSound("rbxassetid://4399694260", 10)
