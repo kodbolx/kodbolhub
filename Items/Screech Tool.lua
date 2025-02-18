@@ -28,7 +28,7 @@ v.CollisionGroup = 1
  end
 end
 
-idk.Root.Anchored = false
+--idk.Root.Anchored = true
 
 
 end)
