@@ -1,1 +1,1 @@
-getgenv().working = true
+getgenv().working = false
