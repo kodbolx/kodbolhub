@@ -1,1 +1,1 @@
-getgenv().check = "working"
+getgenv().check = "down"
