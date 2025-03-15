@@ -1,1 +1,1 @@
-getgenv().working = "working"
+getgenv().check = "working"
